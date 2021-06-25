@@ -11,6 +11,10 @@ jobs:
     steps:
       - name: 'Checkout codes'
         uses: actions/checkout@v1
+      - name: 'init Prop'
+         run:
+           user=${{secrets.PHONE}}
+           password=${{secrets.PASSWORD}}
       - name: 'Post Sports'
         run: bash ./sports.sh
       - name: 'Get Date'
