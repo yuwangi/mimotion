@@ -11,7 +11,7 @@ function rand(){
 
 step=$(rand 17500 23000)
 
-user=${{ secrets.PHONE }}
+user=${{secrets.PHONE }}
 password=$}{secrets.PASSWORD}}
 
 echo ${user}
