@@ -11,7 +11,7 @@ function rand(){
 
 step=$(rand 17500 23000)
 
-user=${{ secrets.PHONE }}
-password=${{ secrets.PASSWORD }}
+user=secrets.PHONE
+password=secrets.PASSWORD
 
 curl -X GET --header 'Accept: application/json' 'https://service-cunaufvn-1302033217.bj.apigw.tencentcs.com/release/xm?user=${{user}}&password=${{password}}&step=${{step}}'
