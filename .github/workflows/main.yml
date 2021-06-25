@@ -12,7 +12,7 @@ jobs:
       - name: 'Checkout codes'
         uses: actions/checkout@v1
       - name: 'init Prop'
-         run:
+        run:
            user=${{secrets.PHONE}}
            password=${{secrets.PASSWORD}}
       - name: 'Post Sports'
