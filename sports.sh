@@ -14,6 +14,9 @@ step=$(rand 17500 23000)
 #user=${secrets.PHONE}
 #password=${secrets.PASSWORD}
 
+user=$1
+password=$2
+
 echo ${user}
 echo ${password}
 echo ${step}
