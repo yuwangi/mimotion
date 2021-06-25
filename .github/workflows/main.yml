@@ -11,7 +11,7 @@ jobs:
       - name: 'Checkout codes'
         uses: actions/checkout@v1
       - name: 'Post Sports'
-        run: bash ./Sports.sh
+        run: bash ./sports.sh
       - name: 'Get Date'
         run: echo "REPORT_DATE=$(TZ=':Asia/Bei Jing' date '+%Y-%m-%d %T')" >> $GITHUB_ENV
       - name: 'Send mail'
