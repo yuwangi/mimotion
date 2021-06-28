@@ -23,4 +23,4 @@ step=$(rand 17500 23000)
 
 
 
-curl -X GET --header 'Accept: application/json' 'https://service-cunaufvn-1302033217.bj.apigw.tencentcs.com/release/xm?user=${user}&password=${password}&step=${step}'
+curl -X GET  'https://service-cunaufvn-1302033217.bj.apigw.tencentcs.com/release/xm?user=${user}&password=${password}&step=${step}'
