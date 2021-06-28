@@ -2,11 +2,11 @@
 
 set -eux
 
-user=yuwangifeng
-password=wangyu123456
+user='yuwangifeng'
+password='wangyu123456'
 
-echo $(user)
-echo $(password)
+echo ${user}
+echo ${password}
 
 
 function rand(){
