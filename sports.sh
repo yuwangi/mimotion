@@ -2,7 +2,7 @@
 
 set -eux
 
-user='yuwangifeng'
+user='18518231181'
 password='wangyu123456'
 
 echo ${user}
