@@ -16,7 +16,7 @@ jobs:
       - name: 'Get Date'
         run: echo "REPORT_DATE=$(TZ=':Asia/Bei Jing' date '+%Y-%m-%d %T')" >> $GITHUB_ENV
       - name: 'Send mail'
-        uses: dawidd6/action-send-mail@master ${{secrets.PHONE}}  ${{secrets.PASSWORD}}
+        uses: dawidd6/action-send-mail@master ${secrets.PHONE}  ${secrets.PASSWORD}
         with:
           server_address: smtp.163.com
           server_port: 465
