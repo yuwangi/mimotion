@@ -26,4 +26,4 @@ jobs:
           body: file://email.txt
           to: yuwangifeng@163.com
           from: GitHub Actions
-          content_type: text/plain
+          content_type: body
