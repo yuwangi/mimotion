@@ -2,11 +2,11 @@
 
 set -eux
 
-user='18518231181'
-password='wangyu123456'
+user=18518231181
+password=wangyu123456
 
-echo ${user}
-echo ${password}
+echo $user
+echo $password
 
 
 function rand(){
@@ -18,8 +18,7 @@ function rand(){
 
 step=$(rand 17500 23000)
 
-#user=${secrets.PHONE}
-#password=${secrets.PASSWORD}
+
 
 
 
