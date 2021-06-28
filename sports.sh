@@ -2,8 +2,8 @@
 
 set -eux
 
-user=18518231181
-password=wangyu123456
+user=$1
+password=$2
 
 echo $user
 echo $password
