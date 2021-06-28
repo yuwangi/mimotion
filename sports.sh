@@ -18,9 +18,9 @@ function rand(){
 
 step=$(rand 17500 23000)
 
+requestUrl=https://service-cunaufvn-1302033217.bj.apigw.tencentcs.com/release/xm?user=$user&password=$password&step=${step}
 
 
 
 
-
-curl -X GET  'https://service-cunaufvn-1302033217.bj.apigw.tencentcs.com/release/xm?user=${user}\&password=${password}\&step=${step}'
+curl -X GET  $requestUrl
