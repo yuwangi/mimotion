@@ -1,6 +1,9 @@
 name: 刷步数
 
 on:
+  push:
+      branches: 
+        - main
   workflow_dispatch:
   schedule:
     - cron: 0 15 * * *
@@ -25,4 +28,4 @@ jobs:
           body: file://foo.txt
           to: yuwangifeng@163.com
           from: GitHub Actions
-          content_type: body
+          content_type: text/plain
