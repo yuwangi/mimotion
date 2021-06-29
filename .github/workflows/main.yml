@@ -25,7 +25,6 @@ jobs:
           username: ${{ secrets.MAIL_USERNAME }}
           password: ${{ secrets.MAIL_PASSWORD }}
           subject: Xiao Mi Sports 
-          body: file://foo.txt
+          html_body: file://index.html
           to: yuwangifeng@163.com
           from: GitHub Actions
-          content_type: text/plain
