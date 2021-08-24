@@ -29,7 +29,7 @@ jobs:
           user='${{ secrets.USER }}'
           pwd='${{ secrets.PWD }}'
           step='${{ secrets.STEP }}'
-          tgbotoken ='${{ secrets.TGBOTOKEN }}'||''
-          chatid ='${{ secrets.CHATID }}'||''
+          tg_bot_token ='${{ secrets.TGBOTOKEN }}'||''
+          tg_user_id ='${{ secrets.CHATID }}'||''
 
           python3 main.py <<EOF
