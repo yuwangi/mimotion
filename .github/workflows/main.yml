@@ -22,14 +22,4 @@ jobs:
       - name: 开始
         run: |
           pip install requests
-          sckey='${{ secrets.SCKEY }}'
-          key='${{ secrets.KEY }}'
-          corpid='${{ secrets.CORPID }}'
-          corpsecret='${{ secrets.CORPSECRET }}'
-          user='${{ secrets.USER }}'
-          pwd='${{ secrets.PWD }}'
-          step='${{ secrets.STEP }}'
-          tg_bot_token ='${{ secrets.TGBOTOKEN }}'||''
-          tg_user_id ='${{ secrets.CHATID }}'||''
-
-          python3 main.py <<EOF
+          python3 main.py
