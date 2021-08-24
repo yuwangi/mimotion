@@ -29,6 +29,5 @@ jobs:
           user='${{ secrets.USER }}'
           pwd='${{ secrets.PWD }}'
           step='${{ secrets.STEP }}'
-          chatid ='${{ secrets.CHATID }}'
 
           python3 main.py <<EOF
