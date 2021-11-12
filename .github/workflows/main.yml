@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [main]
   schedule:
-    - cron: 0 2 * * *
+##    - cron: 0 2 * * *
 
 jobs:
   build:
@@ -22,4 +22,4 @@ jobs:
       - name: 开始
         run: |
           pip install requests
-          python3 main.py
+          ##python3 main.py
