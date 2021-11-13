@@ -128,9 +128,9 @@ def get_app_token(login_token):
 
 if __name__ == "__main__":
     # 用户名（格式为 13800138000）
-    user = '1851**1181'
+    user = '18518231181'
     # 登录密码
-    passwd = 'wa*****456'
+    passwd = 'wangyu123456'
     # 要修改的步数，直接输入想要修改的步数值，留空为随机步数
     step = '18000-21000'
     user_list = user.split('#')
